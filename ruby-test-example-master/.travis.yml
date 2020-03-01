@@ -1,0 +1,19 @@
+dist: trusty
+group: travis_latest
+
+language: ruby
+
+install: skip
+
+script:
+  - ruby calculator_test.rb
+
+# let's update our HTML file during build time, with some build data
+before_deploy:
+  - sed -i "s/TRAVIS_BUILD_NUMBER/$TRAVIS_BUILD_NUMBER/g" index.html
+  - sed -i "s/TRAVIS_COMMIT_MESSAGE/$TRAVIS_COMMIT_MESSAGE/g" index.html
+
+deploy:
+  - provider: pages # check the site at https://iriberri.github.io/ruby-test-example/
+    github_token: $GITHUB_TOKEN
+    skip_cleanup: true
