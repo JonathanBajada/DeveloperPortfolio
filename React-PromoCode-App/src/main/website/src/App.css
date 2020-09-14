@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  margin: auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  background-color: rgb(67, 181, 95);
+
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Appheader {
+  background-color: #1b3555;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Apptitle {
+  font-size: 2.5em;
+  margin-top: 60px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.footer {
+  background-color: rgb(67, 181, 95);
+  color:rgb(67, 181, 95);
+  padding: 100%;
+}
