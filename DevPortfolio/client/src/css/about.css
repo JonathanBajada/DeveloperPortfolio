@@ -146,9 +146,15 @@
 @media only screen and (max-width: 600px) {
 	.profilePic {
 		margin-top: 40px;
+		max-width: 150px;
 	}
 	.about-info {
-		width: 400px;
+		margin-top: -140px;
+		width: 200px;
+	}
+	.about-button {
+		margin-left: 105px;
+		margin-right: 100%;
 	}
 }
 
