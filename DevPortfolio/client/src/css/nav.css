@@ -1,0 +1,41 @@
+/* Navigation */
+.nav-container {
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-box-align: center;
+	align-items: center;
+	position: relative;
+	width: 100%;
+
+	counter-reset: item 0;
+	z-index: 12;
+	margin: 40px;
+}
+
+.nav-item {
+	color: #64ffda;
+
+	padding: 10px;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+}
+
+.nav-3 {
+	border: solid;
+	border-width: thin;
+	background-color: transparent;
+}
+
+.nav-3:hover {
+	background-color: rgba(71, 204, 182, 0.3);
+}
+
+.resume-link {
+	color: #64ffda;
+	border: none;
+}
+/* End Of Navigation */
+
+button:focus {
+	outline: none;
+}
