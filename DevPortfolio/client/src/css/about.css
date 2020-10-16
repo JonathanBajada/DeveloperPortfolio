@@ -153,8 +153,8 @@
 		width: 200px;
 	}
 	.about-button {
-		margin-left: 105px;
-		margin-right: 100%;
+		margin: 40px auto;
+		display: block;
 	}
 }
 
